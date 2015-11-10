@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.msc.bilawalsoomro.guitarrepair.PostQuestionFragment"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Fill in the details below and click Post to submit"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/guitars_array"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/components_array"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <EditText
+        android:id="@+id/posttitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter post subject"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:id="@+id/postdetails"
+        android:layout_width="fill_parent"
+        android:minHeight="80dp"
+        android:maxHeight="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:hint="Enter post details" />
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_weight="1"
+        android:hint="Enter details"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_horizontal" />-->
+
+</LinearLayout>

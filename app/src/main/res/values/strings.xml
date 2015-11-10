@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Guitar Repair</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_guides">Guides</string>
+    <string name="title_guitars">Select Guitar</string>
+    <string name="title_bookmarks">Bookmarks</string>
+    <string name="swipe_viewpager">Swipe and tap to select your guitar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_guitar_component_selector">guitarComponentSelector</string>
+    <string name="Welcome_message">Welcome to Billy\'s Guitar Repair and Maintenance app. Tap on the empty guitar stand to get started!</string>
+
+    <string-array name="components_array">
+        <item>Select Component</item>
+        <item>Headstock</item>
+        <item>Tuning Pegs</item>
+        <item>Neck</item>
+        <item>Bridge</item>
+        <item>Nut</item>
+        <item>Truss Rod</item>
+        <item>Fretboard</item>
+        <item>Pickups</item>
+        <item>pickup switchers</item>
+    </string-array>
+
+    <string-array name="guitars_array">
+        <item>Select Guitar</item>
+        <item>Electric Guitar</item>
+        <item>Bass Guitar</item>
+        <item>Acoustic Guitar</item>
+        <item>Classical Guitar</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
